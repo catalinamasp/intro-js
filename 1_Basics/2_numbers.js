@@ -13,13 +13,16 @@
 
 // a. Compute (18 + 107) / (5 * 25)
 
+a = (18 + 107 / 5*25);
 console.log(a);
 
 // b. Compute the square root of one million.
 
+b = sqrt(1000000);
 console.log(b);
 
 // c. Take the remainder of the division betwen 123 and 9 squared, minus 1.
+
 
 console.log(c);
 

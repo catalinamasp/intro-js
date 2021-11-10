@@ -98,6 +98,9 @@ console.log(primitive);
 // Assign the new string 'I am no longer primitive. I am making progress!'
 // to primitive and print it to console.
 
+primitive = 'I am no longer primitive. I am making progress!';
+console.log(primitive);
+
 // Technical Note! Before I said that primitive types are immutable and not
 // objects. While this is true, in JavaScript primitives are often wrapped in 
 // an object before you interact with them and may have methods. More on this
@@ -120,9 +123,15 @@ console.log(primitive);
 // are more flexible and more...loose. It's up to the programmer to be
 // disciplined and do type checkings where appropriate. 
 
-
 // Now fully embrace the looseness of JavaScript by creating a variable named
 // morpho and by assigning a value to it for each primitive type in JavaScript. 
+
+primitive = 'I am no longer primitive. I am making progress!';
+console.log(primitive);
+morpho = primitive + 1
+console.log(morpho)
+morpho
+typeof morpho;
 
 // Then, use the typeof operator to print the type of a variable. Be ready for
 // some surprises.

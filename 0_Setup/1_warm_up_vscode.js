@@ -194,3 +194,5 @@ $ git config --global user.name "catalinamasp"
 $ git config --global user.email catalinamasp@hotmail.com
 
 
+
+git config
